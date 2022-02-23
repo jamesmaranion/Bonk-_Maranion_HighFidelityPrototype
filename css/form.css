@@ -64,7 +64,7 @@ nav .signin{
 }
 
 /* Form */
-.application form{
+.application{
     margin-top: 40px;
     position: absolute;
     top:40%;
@@ -78,14 +78,14 @@ nav .signin{
 
 }
 
-.application form h1, span, input, button{
+.application h1, span, input, button{
     display: flex;
     justify-content:left;
     align-items: center;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 20%;
 }
-.application form input{
+.application input{
     height: 30px;
     width: 60%;
     outline: none;
@@ -94,7 +94,7 @@ nav .signin{
     border-radius: 5px;
 }
 
-.application form button{
+.application button{
     border: none;
     outline: none;
     text-decoration: none;
@@ -106,7 +106,7 @@ nav .signin{
     transition: all .3s ease;
 }
 
-.application form button:hover{
+.application button:hover{
     background-color: rgb(134, 193, 241);
     cursor: pointer;   
 }
