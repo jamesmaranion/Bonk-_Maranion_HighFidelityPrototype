@@ -155,3 +155,111 @@ nav .signin{
 .apply:hover{
     background-color: #6ed1aa;
 }
+/* Business-Info */
+.view-business{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.view-business form{
+    margin-top: 40px;
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height: 700px;
+    width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px var(--black-rgba);
+
+}
+
+.view-business form h1, span, p, .update{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+.view-business form p:not(.update){
+    height: 30px;
+    width: 60%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid var(--black-rgba);
+    border-radius: 5px;
+}
+
+.view-business form .update{
+    border: none;
+    outline: none;
+    text-decoration: none;
+    text-align: center;
+    background-color: var(--Mint);
+    border-radius: 5px;
+    font-size: larger;
+    height: 35px;
+    transition: all .3s ease;
+}
+
+.user-info form .update:hover{
+    background-color: rgb(134, 193, 241);
+    cursor: pointer;   
+}
+/* Business-Info-End */
+/* User-Info */
+.user-info{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.user-info form{
+    margin-top: 40px;
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height: 800px;
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px var(--black-rgba);
+
+}
+
+.user-info form h1, span, p, .update, select{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+.user-info form p:not(.update){
+    height: 30px;
+    width: 60%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid var(--black-rgba);
+    border-radius: 5px;
+}
+
+.user-info form .update{
+    border: none;
+    outline: none;
+    text-decoration: none;
+    text-align: center;
+    background-color: var(--Pastel-Pink);
+    border-radius: 5px;
+    font-size: larger;
+    height: 35px;
+    transition: all .3s ease;
+}
+
+.user-info form .update:hover{
+    background-color: var(--Pink-after);
+    cursor: pointer;   
+}
+/* User-Info-End*/
+
