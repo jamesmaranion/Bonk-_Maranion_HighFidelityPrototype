@@ -215,7 +215,7 @@ nav .signin{
     height: 100vh;
     
 }
-.user-info form{
+.user-info .user-form{
     margin-top: 40px;
     position: absolute;
     top:40%;
@@ -229,14 +229,14 @@ nav .signin{
 
 }
 
-.user-info form h1, span, p, .update, select{
+.user-info .user-form h1, span, p, .update, select{
     display: flex;
     justify-content:left;
     align-items: center;
     margin-top: 20px;
     margin-left: 20%;
 }
-.user-info form p:not(.update){
+.user-info .user-form p:not(.update){
     height: 30px;
     width: 60%;
     outline: none;
@@ -245,7 +245,7 @@ nav .signin{
     border-radius: 5px;
 }
 
-.user-info form .update{
+.user-info .user-form .update{
     border: none;
     outline: none;
     text-decoration: none;
@@ -257,7 +257,7 @@ nav .signin{
     transition: all .3s ease;
 }
 
-.user-info form .update:hover{
+.user-info .user-form .update:hover{
     background-color: var(--Pink-after);
     cursor: pointer;   
 }
